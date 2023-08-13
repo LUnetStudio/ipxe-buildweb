@@ -4,7 +4,7 @@
 #
 # Copyright (C) 2012-2021 Francois Lacroix. All Rights Reserved.
 # License:  GNU General Public License version 3 or later; see LICENSE.txt
-# Website:  http://ipxe.org, https://github.com/xbgmsharp/ipxe-buildweb
+# Website:  http://ipxe.org, https://github.com/LUnetStudio/ipxe-buildweb
 #------------------------------------------------------------------------
 
 # Fix "Error debconf: unable to initialize frontend: Dialog"
@@ -54,7 +54,7 @@ apt-get -yq install libjson-perl libjson-any-perl libjson-xs-perl
 apt-get -yq install binutils-dev genisoimage syslinux isolinux
 
 # Prepare the git buildweb repository
-mkdir -p /var/www && cd /var/www && git clone https://github.com/xbgmsharp/ipxe-buildweb.git
+mkdir -p /var/www && cd /var/www && git clone https://github.com/LUnetStudio/ipxe-buildweb.git
 cd /var/www/ipxe-buildweb
 cp parseheaders.pl /var/tmp/ipxe/src/util/
 
